@@ -1,0 +1,54 @@
+.task {
+  margin: 20px;
+  background-color: #7de1ff;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.status {
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid black;
+  width: 80px;
+  text-align: center;
+  margin: 20px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.deleteBtn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 60px;
+  height: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 137, 137);
+  border: 2px solid black;
+}
+
+.editBtn {
+  position: absolute;
+  bottom: 30px;
+  right: 5px;
+  width: 60px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 183);
+  border: 2px solid black;
+}
+
+.task button:hover {
+  cursor: pointer;
+}
